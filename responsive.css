@@ -1,0 +1,253 @@
+/* 1440 -----------------------------------------------------------*/
+@media (max-width: 1440px) {
+  nav {
+    width: 90%;
+  }
+
+  #dobrodosli article,
+  .catcher,
+  #usluge main,
+  .contact_wrapper {
+    width: 90%;
+  }
+
+  #usluge main {
+    padding-top: 15%;
+  }
+  #usluge article {
+    width: 95%;
+  }
+}
+
+/* 1024 -----------------------------------------------------------*/
+@media (max-width: 1024px) {
+  .form_map_wrapper {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .form_wrapper,
+  .map_wrapper {
+    width: 100%;
+  }
+  iframe {
+    height: 500px;
+    border-top-right-radius: 0;
+  }
+  .form_wrapper p {
+    margin-bottom: 5%;
+  }
+}
+
+/* 840 -----------------------------------------------------------*/
+@media (max-width: 840px) {
+  nav .dropdown_icon {
+    display: inline-flex;
+  }
+  nav .hyperlinks {
+    display: none;
+  }
+  .logo_icon img {
+    height: 50px;
+  }
+
+  #dobrodosli main h1 {
+    font-size: 3rem;
+  }
+  #dobrodosli main img {
+    width: 100%;
+    left: 50%;
+  }
+  #dobrodosli main p {
+    font-size: 1.5rem;
+  }
+
+  .wrapper {
+    width: 95%;
+    height: 70%;
+  }
+
+  .info_wrapper {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+/* 768 -----------------------------------------------------------*/
+@media (max-width: 768px) {
+  #dobrodosli main {
+    margin-bottom: 10%;
+  }
+  #dobrodosli article img {
+    height: 70px;
+    filter: brightness(0);
+  }
+  #dobrodosli article img:nth-child(1),
+  #dobrodosli article img:nth-child(3),
+  #dobrodosli article img:nth-child(7) {
+    height: 50px;
+  }
+
+  .wrapper {
+    width: 95%;
+    height: 60%;
+  }
+
+  #usluge article {
+    margin: 5% 0;
+  }
+  #usluge article h1 {
+    font-size: 2.5rem;
+  }
+  #usluge article h2 {
+    font-size: 1.2rem;
+  }
+  #usluge article button {
+    padding: 5px 20px;
+    font-size: 1.3rem;
+  }
+  #usluge main {
+    padding-top: 25%;
+  }
+
+  .footer_wrapper {
+    flex-direction: column;
+    align-items: start;
+  }
+}
+
+/* 588 -----------------------------------------------------------*/
+@media (max-width: 588px) {
+  #usluge main {
+    padding-top: 45%;
+  }
+}
+
+/* 448 -----------------------------------------------------------*/
+@media (max-width: 448px) {
+  #dobrodosli main h1 {
+    font-size: 2.5rem;
+  }
+  #dobrodosli main img {
+    width: 150%;
+    left: 50%;
+  }
+  #dobrodosli main p {
+    font-size: 1.2rem;
+  }
+
+  #dobrodosli article img {
+    height: 60px;
+    filter: brightness(0);
+  }
+  #dobrodosli article img:nth-child(1),
+  #dobrodosli article img:nth-child(3),
+  #dobrodosli article img:nth-child(7) {
+    height: 40px;
+  }
+
+  .wrapper p:nth-child(4) {
+    display: none;
+  }
+
+  #usluge article h1 {
+    font-size: 2.3rem;
+  }
+  #usluge article h2 {
+    font-size: 1rem;
+  }
+  #usluge article button {
+    padding: 5px 20px;
+    font-size: 1.2rem;
+  }
+
+  #usluge main h1 {
+    font-size: 2.7rem;
+  }
+
+  .card {
+    min-width: 300px;
+  }
+  .card img {
+    height: 8cap;
+  }
+  .card h3 {
+    font-size: 1.8rem;
+  }
+  .card p {
+    font-size: 1.1rem;
+  }
+}
+
+/* 425 -----------------------------------------------------------*/
+@media (max-width: 425px) {
+  .logo_icon img {
+    height: 30px;
+  }
+  .dropdown_hyperlinks a {
+    font-size: 1.1rem;
+  }
+
+  .secSen {
+    display: none;
+  }
+
+  #dobrodosli article,
+  .catcher,
+  #usluge main,
+  .contact_wrapper,
+  .footer_wrapper {
+    width: 95%;
+  }
+
+  #dobrodosli {
+    padding-bottom: 20%;
+  }
+  #dobrodosli main h1 {
+    font-size: 2.3rem;
+  }
+
+  #dobrodosli article img:nth-child(1),
+  #dobrodosli article img:nth-child(2),
+  #dobrodosli article img:nth-child(3) {
+    display: none;
+  }
+
+  .wrapper p:nth-child(3) {
+    display: none;
+  }
+  .wrapper p:nth-child(2) {
+    background: url(Images/about/rig.jpeg) center / cover no-repeat;
+  }
+  .wrapper p:last-of-type {
+    background: url(Images/about/IMG_3534.jpeg) center / cover no-repeat;
+  }
+
+  #usluge article h1 {
+    font-size: 2rem;
+  }
+
+  .contact_wrapper {
+    padding: 30px 10px;
+  }
+
+  .form_wrapper h1 {
+    font-size: 3rem;
+  }
+  .form_wrapper p {
+    font-size: 1rem;
+  }
+  textarea {
+    width: 100%;
+    padding-top: 5%;
+  }
+  iframe {
+    height: 350px;
+  }
+
+  .footer_wrapper {
+    margin-bottom: 10%;
+  }
+  .copyright {
+    font-size: 0.85rem;
+  }
+}

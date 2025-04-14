@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="bs">
+  <!-- prettier-ignore -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Brzi autoservis, najkvalitetnija usluga autoservisa i slep sluzbi na trzistu.">
+    <meta name="keywords" content="autoservis, autosluzba, slep sluzba, auto, servis, kocinice, popravka, udes">
+    
+    <meta property="og:title" content="AutoServis Hamzić | Auto servis i popravka automobila">
+    <meta property="og:description" content="Brzi autoservis, najkvalitetnija usluga autoservisa i slep sluzbi na trzistu.">
+    <meta property="og:image" content="URL_to_image">
+    <meta property="og:url" content="https://autoservishamzic.pages.dev">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="AutoServis Hamzić | Auto servis i popravka automobila">
+    <meta name="twitter:description" content="Brzi autoservis, najkvalitetnija usluga autoservisa i slep sluzbi na trzistu.">
+    <meta name="twitter:image" content="URL_to_image">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="Images/mainFavicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Images/mainFavicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Images/mainFavicon/favicon-16x16.png">
+    <link rel="manifest" href="Images/mainFavicon/site.webmanifest">
+    <title>AutoServis Hamzic</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+
+    <link href="https://fonts.cdnfonts.com/css/bignoodletitling" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Alatsi&family=Bangers&family=Exo+2:ital,wght@0,900;1,900&family=Geist+Mono:wght@100..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet"/>
+    
+    <script src="https://kit.fontawesome.com/00106cbec8.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!------------------------------------------------------------------------------------------------------------------------------ LOADING ANIMATION -->
+    <div id="loader">
+      <video autoplay muted playsinline id="loader-video">
+        <source id="video-source" src="/loading_animation.mp4" type="video/mp4" />
+      </video>
+    </div>
+    <!------------------------------------------------------------------------------------------------------------------------------ WELCOME -->
+    <section class="welcome" id="dobrodosli">
+      <nav>
+        <div class="logo_icon">
+          <img src="/Images/Logo 1.png" alt="Logo of Auto Servis  Hamzic" />
+        </div>
+
+        <div class="hyperlinks">
+          <a href="#onama">Slike</a>
+          <a href="#usluge">Uslige</a>
+          <a href="#kontakti">Kontakt</a>
+          <a href="#lokacija">Lokacija</a>
+        </div>
+
+        <div class="dropdown_icon">
+          <i id="showNav" class="fa-solid fa-bars"></i>
+          <i id="closeNav" class="icon_hidden fa-solid fa-xmark"></i>
+        </div>
+      </nav>
+      <div class="dropdown_hyperlinks">
+        <a href="#onama">Slike</a>
+        <a href="#usluge">Uslige</a>
+        <a href="#kontakti">Kontakt</a>
+        <a href="#lokacija">Lokacija</a>
+      </div>
+
+      <main>
+        <h1>Vaš pouzdani partner za sve auto usluge</h1>
+        <img id="animated-img" src="./Images/slep.png" draggable="false" alt="Photo of car towing andother car on a trailer" />
+        <p>
+          Dobrodošli u Auto Servis Hamzić, gde kvalitet i poverenje idu ruku pod ruku. <br />
+          <span class="secSen">Pružamo sveobuhvatne usluge održavanja i popravke kako bi vaš automobil bio pouzdan u svakoj situaciji.</span>
+        </p>
+      </main>
+
+      <article class="brands">
+        <img src="Images/car logos/Hyundai.png" alt="Logo of Hyundai car" />
+        <img src="Images/car logos/Suzuki.png" alt="Logo of Suzuki car" />
+        <img src="Images/car logos/toyota.png" alt="Logo of Toyota car" />
+        <img src="Images/car logos/BMW.png" alt="Logo of Bmw car" />
+        <img src="Images/car logos/VW.png" alt="Logo of Volkswagen car" />
+        <img src="Images/car logos/Mercedes.png" alt="Logo of Mercedes car" />
+        <img src="Images/car logos/AUDI.png" alt="Logo of Audi car" />
+      </article>
+    </section>
+    <!------------------------------------------------------------------------------------------------------------------------------ABOUT -->
+    <section class="about" id="onama">
+      <div class="catcher">
+        <div class="wrapper">
+          <p></p>
+          <p></p>
+          <p></p>
+          <p></p>
+          <p></p>
+        </div>
+      </div>
+    </section>
+
+    <!------------------------------------------------------------------------------------------------------------------------------SERVICE -->
+    <section class="service hidden" id="usluge">
+      <article>
+        <h1>ZAKAŽITE VAŠ TERMIN VEĆ DANAS</h1>
+        <h2>Zakažite svoj termin već danas putem telefona, emaila ili online forme.</h2>
+        <button onclick="scrollToSection('kontakti')">ZAKAŽI SE</button>
+      </article>
+
+      <main>
+        <h2>Šta nudimo?</h2>
+        <h1>Naše usluge</h1>
+        <div class="card_wrapper">
+          <div class="card">
+            <img src="/Images/offers/kocinice.png" alt="Braks icon" />
+            <h3>Popravak kočinica</h3>
+            <p>Pouzdane kočnice su ključne za vašu sigurnost. Pružamo stručan servis i popravke kočionih sistema. Zakažite termin već danas!</p>
+          </div>
+          <div class="card">
+            <img src="/Images/offers/vucna-sluzba.png" alt="tow icon" />
+            <h3>Vučna služba</h3>
+            <p>U slučaju kvara ili nesreće, naša vučna služba je tu da vam pomogne. Dostupni smo 24/7 za hitne intervencije.</p>
+          </div>
+          <div class="card">
+            <img src="/Images/offers/balansiranje-guma.png" alt="tyre balancing icon" />
+            <h3>Balansiranje guma</h3>
+            <p>Osigurajte ravnomerno habanje guma i udobnu vožnju uz našu uslugu balansiranja guma. Kontaktirajte nas danas!</p>
+          </div>
+          <div class="card">
+            <img src="/Images/offers/zamjena-ulja.png" alt="oil change icon" />
+            <h3>Zamjena ulja</h3>
+            <p>Za besprekorno funkcionisanje vašeg motora, redovno menjajte ulje kod nas. Brza i profesionalna usluga na dohvat ruke.</p>
+          </div>
+          <div class="card">
+            <img src="/Images/offers/otkup-auta.png" alt="buying car icon" />
+            <h3>Otkup vozila</h3>
+            <p>Nudimo brzu i fer procenu otkupa vašeg vozila. Bez obzira na stanje automobila, obezbedićemo vam najbolju ponudu.</p>
+          </div>
+          <div class="card">
+            <img src="/Images/offers/popravak-karoserije.png" alt="car repair icon" />
+            <h3>Popravka karoserije</h3>
+            <p>Profesionalna popravka karoserije za sve vrste oštećenja. Vaše vozilo će izgledati kao novo uz našu stručnu uslugu.</p>
+          </div>
+        </div>
+      </main>
+    </section>
+    <!------------------------------------------------------------------------------------------------------------------------------CONTACT -->
+    <section class="contact" id="kontakti">
+      <div class="contact_wrapper">
+        <div class="form_map_wrapper">
+          <div class="form_wrapper">
+            <h1>Zakaži termin</h1>
+            <p>Kontaktirajte nas da biste zakazali svoj termin</p>
+
+            <form action="https://api.web3forms.com/submit" method="POST">
+              <input type="hidden" name="access_key" value="0d1afcb1-f540-46ff-870d-9ee3dbb499cc" />
+
+              <div class="input-container">
+                <input type="text" name="name" class="input_type" required />
+                <label class="floating-label">Ime i prezime</label>
+              </div>
+
+              <div class="input-container">
+                <input type="email" name="email" class="input_type" required />
+                <label class="floating-label">Email</label>
+              </div>
+
+              <div class="input-container">
+                <textarea name="message" placeholder="Vaša poruka..." required></textarea>
+              </div>
+
+              <input type="checkbox" name="botcheck" class="hidden" style="display: none" />
+
+              <button type="submit">Pošalji poruku</button>
+            </form>
+          </div>
+
+          <div class="map_wrapper">
+            <iframe
+              id="lokacija"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d356.86209448692034!2d18.682421856127263!3d44.31207294613089!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47593713ad1a0005%3A0xffbbd758b36d2ff8!2sProdavnica!5e0!3m2!1sen!2sba!4v1743792708101!5m2!1sen!2sba"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+
+        <div class="info_wrapper">
+          <div class="location info">
+            <i class="fa-solid fa-location-dot"></i>
+            <p>Stupari bb, <span>Kladanj</span></p>
+          </div>
+
+          <div class="mail info">
+            <i class="fa-solid fa-envelope"></i>
+            <p>nedimhamzic192@gmail.com</p>
+          </div>
+
+          <div class="contact_ininfo info">
+            <i class="fa-solid fa-phone"></i>
+            <p>061-565-233 <span>// Nedim Hamzić</span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!------------------------------------------------------------------------------------------------------------------------------FOOTER -->
+
+    <section class="footer">
+      <footer>
+        <div class="footer_wrapper">
+          <!-- prettier-ignore -->
+          <div class="social social1">
+            <h1>Društvene mreže</h1>
+            <a href="https://www.instagram.com/nedim_8173/">Instagram</a>
+            <a href="https://hr-hr.facebook.com/people/Nedim-Hamzi%C4%87/pfbid02bMukn1UVbAePABZsZFDZvqmo3LbMDDpJwrc2XCh7sCsbhgd69PMRkpwpqz8mS1xXl/">Facebook</a>
+            <a href="viber://chat?number=387644018011">Viber</a>
+          </div>
+
+          <div class="social social2">
+            <h1>Brzi linkovi</h1>
+            <a href="#dobrodosli">Dobrodošli</a>
+            <a href="#onama">O nama</a>
+            <a href="#usluge">Naše usluge</a>
+            <a href="#kontakti">Zakaži termin</a>
+          </div>
+
+          <div class="social social3">
+            <h1>Informacije</h1>
+            <p>
+              Stupari - centar bb, Kladanj <br />
+              Bosna i Hercegovina (BIH)
+            </p>
+
+            <a href="https://autoservishamzic.com">https://autoservishamzic.com</a>
+            <a href="tel:387-61-565-233">(+387) 61 565 233</a>
+          </div>
+        </div>
+        <p class="copyright">
+          ©Copyright <span id="year"></span> by. <a href="https://www.instagram.com/nedim_8173">AutoServis Hamzić</a> &
+          <a href="https://www.instagram.com/emir.hrnjic2">Emir WebDev</a>
+        </p>
+      </footer>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
